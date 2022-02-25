@@ -1,0 +1,107 @@
+*, *::before, *::after {
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#164d85;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:#7cacdb;
+    border-radius: 25px;
+}
+
+body {
+    background:url(https://architecturebeast.com/wp-content/uploads/2018/02/gradient-2560x1440-green-blue-hd-11974.jpg);
+}
+
+.peacock-card {
+    background: white;
+    width: 425px;
+    padding: 20px 5px 20px 5px;
+    margin: 0px auto;
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1.0;
+    z-index: 9999;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+  }
+
+h2 {
+    margin: 0 auto;
+    font-size: 45px;
+}
+.peacock-image {
+    margin: 15px 10px 15px 10px;
+}
+
+.peacock-image > img {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.peacock-fun-facts {
+    text-align: center;
+    font-size: 14.5px;
+    margin: 5px
+}
+
+.btn {
+    background: #164d85; 
+    color: white;
+    border: none;
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #2568ac;
+    transition-duration: 0.4s;
+    opacity: 0.6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+.peacock-facts {
+    background: white;
+    padding: 20px 5px 20px 5px;
+    margin: 15px 15px 15px 15px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 10px;
+}
+
+.peacock-blurb {
+    height: 100px;
+    overflow: scroll;
+    text-align: center;
+}
