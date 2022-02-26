@@ -1,5 +1,7 @@
 *, *::before, *::after {
     font-family: 'Shippori Antique B1', sans-serif;
+  	margin: 0;
+  	padding: 0;
 }
 
 ::-webkit-scrollbar {
@@ -26,16 +28,17 @@ body {
 
 .peacock-card {
     background: white;
-    width: 425px;
-    padding: 20px 5px 20px 5px;
+  	border: 1px solid rgb(167, 167, 167);
+    width: 300px;
+    padding: 0 50px 50px 50px;
     margin: 0px auto;
     position: relative;
     top: 100px;
+  	bottom: 100px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     opacity: 1.0;
-    z-index: 9999;
 }
 
 a {
@@ -48,30 +51,27 @@ a:hover {
   }
 
 h2 {
-    margin: 0 auto;
+    padding: 16px;
     font-size: 45px;
 }
-.peacock-image {
-    margin: 15px 10px 15px 10px;
-}
 
-.peacock-image > img {
-    width: 300px;
+.peacock-image img {
+    max-width: 100%;
+  	width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .peacock-fun-facts {
     text-align: center;
     font-size: 14.5px;
-    margin: 5px
+    margin-top: 15px;
 }
 
 .btn {
     background: #164d85; 
     color: white;
     border: none;
-    padding: 5px 5px 5px 5px;
-    margin: 5px;
+  	padding: 8px;
+    margin: 15px 0;
     font-size: 12px;
     border-radius: 5px;
     cursor: pointer;
@@ -84,23 +84,17 @@ h2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-
 .peacock-facts {
     background: white;
-    padding: 20px 5px 20px 5px;
-    margin: 15px 15px 15px 15px;
+  	padding: 15px;
+  	margin-top: 15px;
     border: 1px solid rgb(167, 167, 167);
     border-radius: 10px;
 }
 
 .peacock-blurb {
+  	padding: 15px;
+  	margin: 8px 0;
     height: 100px;
     overflow: scroll;
     text-align: center;
